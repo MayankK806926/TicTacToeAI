@@ -1,0 +1,5 @@
+Tournament Started: Tue Jun  3 09:25:21 2025
+Match Format: Best of 1
+Final Score => You: 0 | AI: 0
+Winner: Draw
+----------------------------------------
