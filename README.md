@@ -20,6 +20,7 @@ tic-tac-toe-ai/
 │ ├── TicTacToe.cpp # Class implementation
 │ └── main.cpp # Main game program
 └── README.md # This file
+└── game_log.txt
 ```
 
 
@@ -65,12 +66,10 @@ tic_tac_toe.exe
    ```bash
    Available positions: 1 2 3 5 7 8 9
    Enter position: 5
-   Game outcome
-
-   Win 3 matches to win a best-of-5 tournament
-   ```
-
-   Games can end in win, loss, or draw
+4. **Game outcome**
+   - Win 3 matches to win a best-of-5 tournament
+   - Games can end in win, loss, or draw
+   
 💡 Pro Tip: The AI uses perfect strategy - your best hope is a draw!
 
 ## Technical Details
@@ -90,5 +89,6 @@ tic_tac_toe.exe
 - 📈 **Alpha-beta pruning** reduces search space by ~50%
 - ♻️ **Board state reset** between matches
 - 📊 **Score persistence** during tournaments
+- 📝 **Automatic game logging** to `game_log.txt`
 - ⚡ **Efficient move evaluation** (average 50-100ms/move)
 - 🔄 **Recursive tree traversal** with depth-first search
