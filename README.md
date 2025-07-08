@@ -27,7 +27,6 @@ tic-tac-toe-ai/
 ## Requirements
 
 - C++ compiler (g++ or clang++)
-- Linux/MacOS terminal or Windows with WSL
 
 ## Installation & Running
 
